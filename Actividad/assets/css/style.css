@@ -1,0 +1,172 @@
+:root{/*Declarador de variables*/
+    --colorMenuHorizontal: #858796;
+    --colorLineaDivide: #9799a6;
+    --colorBlanco: white;
+    --pesorFuente: 900;
+}
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-items: center;
+}
+
+.Div-Nav{
+    display: flex;
+}
+.head-Horizontal{
+    height: 654px;
+    background-color: var(--colorMenuHorizontal);
+    text-align: center;
+    flex: 0 1 auto;
+    width: 8%;
+}
+.head-Vertical{
+    width: 100%;
+    background-color: var(--colorBlanco);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Div-Cont-head{
+    display: flex;
+    background-color: azure;
+    text-align: center;
+    flex: 1 1 auto;
+    width: 92%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Div-Img-Head{
+    text-align: center;
+    border-bottom: 1px solid var(--colorLineaDivide);
+    align-items: center;
+    justify-content: center;
+}
+
+.Img-Head{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.Div-Img-Menu{
+    display: none;
+}
+.Li-Menu-vert{
+    text-align: center;
+    border-bottom: 1px solid var(--colorLineaDivide);
+    font-size: 13px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    flex: 1 1 auto;
+    margin-top: 5%;
+}
+.Div-Img-Menu:checked ~ .Div-Menu-vert{
+    display: none;
+}
+.Div-Oculto{
+    display: none;
+}
+.Icon-Menu-vert{
+    font-size: 20px;
+}
+.Div-Menu-vert{
+    color: var(--colorBlanco);
+}
+.Ul-Vertical{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;   
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; 
+    margin: 1% 1% 1% 1%;
+}
+.Ul-Horizontal{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+}
+.Li-input-head{
+    align-self: flex-start;
+}
+.Div-input-head{
+    display: flex;
+}
+.Div-icon-Search{
+    font-size: 15px;
+    border: 1px solid var(--colorMenuHorizontal);
+    border-radius: 0px 10px 10px 0px;
+    width: 40px;
+    text-align: center;
+    justify-content: center;
+    color: #858796;
+    cursor: pointer;
+}
+.icon-Search{
+    margin-top: 35%;
+}
+#IdInputSearch{
+    border: none;
+    background-color: #f8f9fc;
+    height: 40px;
+    width: 250px;
+}
+.Div-User{
+    display: flex;
+}
+.Icon-User{
+    font-size: 20px;
+    margin-left: 5px;
+    color: #d1d3e2;
+}
+.Div-Cont{
+    margin: 2% 2% 0px 2%;
+}
+.Div-Cant-Ing{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Icon-Edit{
+    color: var(--colorBlanco);
+}
+.Div-Veh-Ing{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+grid-template-rows: 25% 25% 25% 25%;
+}
+.Div-Card{
+    width: 100%;
+    height: 100%;
+    margin: 10px 0px 30px 0px;
+}
+.icon-Veh{
+    font-size: 200px;
+    text-align: center;
+    justify-content: center;
+}
+.P-Placa{
+    font-size: 25px;
+    text-align: center;
+}

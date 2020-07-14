@@ -1,0 +1,117 @@
+
+@media only screen and (max-width: 800px){
+    body{
+
+        flex-direction: column;
+    } 
+    .head-Horizontal{
+        height: 100%;
+        width: 100%;
+    }
+    .Li-Menu-vert{
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 20px !important;
+        justify-content: space-between;
+    }
+    .head-Vertical{
+        display: none;
+    }
+    .Div-Oculto{
+        display: flex;
+    }
+    .Icon-Menu-vert{
+        font-size: 10px;
+        margin: 0px;
+    }
+    .Img-Head{
+        font-size: 10px;
+        margin: 0px;
+    }
+    .Div-Menu-vert{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 10px;
+    }
+    .P-Menu-vert{
+        margin: 0px 10px;
+    }
+    .Div-Img-Head {
+        margin: 0px 10px;
+    }
+    .Div-Img-Menu{
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        margin: 0px 10px;
+    }
+    .Div-input-head {
+        margin: 1px 10px;
+        width: 100%;
+    }
+    #IdInputSearch {
+        height: 100%;
+        width: 100%;
+        flex: 1 1 auto;
+    }
+    .Div-icon-Search {
+        border: 1px solid white;
+        color: white;
+    }
+    .Div-User {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .Div-User p{
+        margin: 0px 10px; 
+    }
+    .Div-User .Icon-User{
+        margin: 10px 10px; 
+    }
+    .Div-Cont-head{
+        background-color: azure;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .Li-Menu-vert{
+        font-size: 13px;
+    }
+    .Img-Head{
+        font-size: 45px;
+    }
+    .Icon-Menu-vert{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .Li-Menu-vert{
+        font-size: 12px;
+    }
+    .Img-Head{
+        font-size: 40px;
+    }
+    .Icon-Menu-vert{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .Li-Menu-vert{
+        font-size: 11px;
+    }
+    .Div-Cont-head {
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
